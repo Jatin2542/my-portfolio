@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(255,255,255,0.1);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  transition: 0.4s;
+}
+
+.hero-content:hover {
+  transform: scale(1.02);
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #ff4b2b;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+/* About */
+.about {
+  padding: 60px;
+  text-align: center;
+}
+
+.skills span {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 20px;
+}
+
+/* Contact */
+.contact {
+  padding: 60px;
+  text-align: center;
+}
+
+.contact input,
+.contact textarea {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
